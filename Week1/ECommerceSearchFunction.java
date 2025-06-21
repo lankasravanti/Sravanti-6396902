@@ -1,6 +1,6 @@
 import java.util.*;
 
-//product in the Ecommerece platform
+//product in the Ecommerce platform
 
 class Product {
     int id;
