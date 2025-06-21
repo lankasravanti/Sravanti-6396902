@@ -27,5 +27,11 @@ public class Financialforecast {
         System.out.println("Total Expenses :Rs"+totalexpenses);
         System.out.println("Net Savings :Rs"+currentBalance);
         System.out.println("Average Monthly Savings: Rs"+averageSavings);
+        System.out.print("\n🔮 Forecast how many months ahead? ");
+        int forecastmonths = sc.nextInt();
+
+        double projectedBalance = currentBalance + (forecastmonths * averageSavings);
+        System.out.println(" Projected balance after " + forecastmonths + " month(s): ₹" + projectedBalance);
+
     }
 }
